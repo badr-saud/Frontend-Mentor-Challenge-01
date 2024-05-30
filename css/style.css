@@ -1,0 +1,66 @@
+/* styel variables */
+:root {
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+}
+/* end of styel variables */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit";
+    background-color: var(--Light-gray);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 152px;
+}
+
+main {
+    background-color: var(--White);
+    width: 320px;
+    /* height: 497px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    border-radius: 20px;
+}
+
+.card-img {
+    width: 288px;
+    height: 288px;   
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.card-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card-text {
+    padding: 0 16px;
+}
+
+.card-text h3 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: var(--Dark-blue);
+}
+
+.card-text p {
+    font-weight: normal;
+    font-size: 15px;
+    color: var(--Grayish-blue);
+    margin-bottom: calc(40px - 16px);
+}
